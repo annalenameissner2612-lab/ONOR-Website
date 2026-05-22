@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>work/Coming Soon! | ONOR</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zmq2nmy.css"/>
+    <link rel="stylesheet" href="css/onor.css"/>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+
+    <body>
+
+        <!-- =========================================================
+            HEADER
+        ========================================================= -->
+
+        <header class="site-header">
+            <!-- Logo -->
+            <a href="index.html" class="logo-link" aria-label="Zur Startseite">
+                <img src="assets/img/elements/onor_symbol.svg" alt="ONOR Symbol" class="logo"/>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="main-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skill.html" class="nav-link">Skill</a></li>
+                    <li><a href="work.html" class="nav-link is-active">Work</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+
+                </ul>
+                
+                <!-- Mobile Toggle -->
+                <button
+                class="nav-toggle"
+                type="button"
+                aria-label="Open Menu"
+                >
+                <span></span>
+                <span></span>
+                <span></span>
+                </button>
+
+            </nav>
+
+            <!-- CTA -->
+            <a href="contact.html" class="btn btn-primary header-cta">Contact Me</a>
+        </header>
+
+        <!-- =================================================
+            HERO
+        ================================================== -->
+
+        <section class="opera-hero">
+            <div class="about-hero__blur"></div>
+            <!-- Blur -->
+            <div class="hero-blur"></div>
+
+            <div class="container">
+
+                <!-- Breadcrumb -->
+                <div class="opera-hero__breadcrumb">
+
+                    <a href="work.html" class="opera-hero__crumb">
+                        WORK
+                    </a>
+
+                    <span class="opera-hero__divider">
+                        /
+                    </span>
+
+                    <span class="opera-hero__current">
+                        00 Coming Soon
+                    </span>
+
+                </div>
+
+
+                <!-- Title -->
+                <h1 class="opera-hero__title">
+
+                    COMING
+                    <br>
+
+                    <strong>SOON!</strong>
+
+                </h1>
+
+            </div>
+
+        </section>
+
+        
+        <!-- =================================================
+            OPERA ABOUT
+        ================================================== -->
+
+        <section class="opera-about">
+
+            <div class="container">
+
+                <!-- Top -->
+                <div class="opera-about__top">
+
+                    <!-- Number -->
+                    <span class="opera-about__number">
+                        01
+                    </span>
+
+                    <!-- Line -->
+                    <div class="opera-about__line"></div>
+
+                </div>
+
+
+                <!-- Title -->
+                <h2 class="opera-about__title">
+                    Check LAter for update ...
+                </h2>
+
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <!-- =================================================
+            OPERA GALLERY
+        ================================================== -->
+
+        <section class="opera-gallery">
+
+            <div class="container">
+
+                <!-- ---------------------------------------------
+                    heading
+                --------------------------------------------- -->
+
+                <div class="opera-gallery__heading">
+
+                    <span class="opera-gallery__label">
+                        THE DEEP DIVE
+                    </span>
+
+                    <h2 class="opera-gallery__title">
+                        RESULTS
+                    </h2>
+
+                </div>
+
+               
+                <!-- ---------------------------------------------
+                    grid
+                --------------------------------------------- -->
+
+                <div class="opera-gallery__grid">
+
+
+                    <!-- =================================================
+                        CARD 01
+                    ================================================== -->
+
+                    <article class="opera-gallery-card">
+
+                        <button
+                        class="opera-gallery-card__trigger"
+                        data-image="assets/img/soon.jpg"
+                        >
+
+                            <!-- Image -->
+                            <img
+                            src="assets/img/soon.jpg"
+                            alt="Soon"
+                            class="opera-gallery-card__image"
+                            >
+
+                            <!-- Overlay -->
+                            <div class="opera-gallery-card__overlay">
+
+                                <!-- Button -->
+                                <div class="opera-gallery-card__button">
+
+                                    <i
+                                    data-lucide="arrow-up-right"
+                                    class="opera-gallery-card__icon"
+                                    ></i>
+
+                                </div>
+
+                            </div>
+
+                        </button>
+
+                    </article>
+
+                    
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+            IMAGE MODAL
+        ================================================== -->
+
+        <div class="opera-modal" id="operaModal">
+
+            <div class="opera-modal__content">
+
+                <!-- Close -->
+                <button
+                class="opera-modal__close"
+                id="operaModalClose"
+                >
+                    ×
+                </button>
+
+
+                <!-- Prev -->
+                <button
+                class="opera-modal__nav opera-modal__nav--prev"
+                id="operaPrev"
+                >
+
+                    <i
+                    data-lucide="arrow-left"
+                    class="opera-modal__nav-icon"
+                    ></i>
+
+                </button>
+
+
+                <!-- Image -->
+                <img
+                src=""
+                alt="Expanded Project Image"
+                class="opera-modal__image"
+                id="operaModalImage"
+                >
+
+
+                <!-- Next -->
+                <button
+                class="opera-modal__nav opera-modal__nav--next"
+                id="operaNext"
+                >
+
+                    <i
+                    data-lucide="arrow-right"
+                    class="opera-modal__nav-icon"
+                    ></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+            BACK TO WORK
+        ================================================== -->
+
+        <div class="project-back">
+
+            <a href="work.html" class="project-back-btn">
+
+                <!-- Icon Box -->
+                <span class="project-back-btn__icon-box">
+
+                    <i
+                    data-lucide="arrow-left"
+                    class="project-back-btn__icon"
+                    ></i>
+
+                </span>
+
+                <!-- Text -->
+                <span class="project-back-btn__text">
+                    BACK TO <br>
+                    WORK
+                </span>
+
+            </a>
+
+        </div>
+
+        <div class="cookie-banner">
+
+            <!-- Close -->
+            <button class="cookie-banner__close">
+
+                <i
+                data-lucide="x"
+                class="cookie-banner__close-icon"
+                ></i>
+
+            </button>
+
+
+            <!-- Content -->
+            <div class="cookie-banner__content">
+
+
+                <!-- Row -->
+                <div class="cookie-banner__row">
+
+
+                    <!-- Left -->
+                    <div class="cookie-banner__title">
+
+                        <span class="cookie-banner__title-fill">
+                            Digital
+                        </span>
+
+                        <span class="cookie-banner__title-outline">
+                            Footprint
+                        </span>
+
+                    </div>
+
+
+                    <!-- Right -->
+                    <div class="cookie-banner__right">
+
+
+                        <!-- Text -->
+                        <p class="cookie-banner__text">
+
+                            <span class="cookie-banner__preview">
+                                We use cookies to improve functionality,
+                                analyze traffic and enhance your browsing
+                                experience.
+                            </span>
+
+                            <span class="cookie-banner__more">
+                                You can accept all cookies, customize your
+                                preferences or decline optional tracking
+                                technologies.
+                            </span>
+
+                            <button class="cookie-banner__readmore">
+                                Read more
+                            </button>
+
+                        </p>
+
+
+
+                        <!-- =========================================
+                            DEFAULT ACTIONS
+                        ========================================== -->
+
+                        <div class="cookie-banner__actions">
+
+                            <button class="btn btn-primary">
+                                Accept All
+                            </button>
+
+                            <button class="btn btn-secondary cookie-banner__preferences-toggle">
+                                Preferences
+                            </button>
+
+                            <button class="cookie-banner__decline">
+                                Decline
+                            </button>
+
+                        </div>
+
+
+
+                        <!-- =========================================
+                            EXPANDED PREFERENCES
+                        ========================================== -->
+
+                        <div class="cookie-banner__preferences">
+
+
+                            <!-- Save -->
+                            <button class="btn btn-secondary cookie-banner__save">
+
+                                Save Preferences
+
+                            </button>
+
+
+
+                            <!-- Options -->
+                            <div class="cookie-banner__options">
+
+
+                                <!-- Necessary -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    checked
+                                    disabled
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Necessary
+                                    </span>
+
+                                </label>
+
+
+
+                                <!-- Analytics -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Analytics
+                                    </span>
+
+                                </label>
+
+
+
+                                <!-- Marketing -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Marketing
+                                    </span>
+
+                                </label>
+
+
+
+                                <!-- Preferences -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Preferences
+                                    </span>
+
+                                </label>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- =========================================================
+            FOOTER
+        ========================================================= -->
+
+        <footer class="site-footer">
+
+            <div class="container site-footer__inner">
+
+                <!-- Logo -->
+                <a href="index.html" class="site-footer__logo-link">
+
+                    <img
+                        src="assets/img/elements/onor_symbol.svg"
+                        alt="ONOR Symbol"
+                        class="site-footer__logo"
+                    />
+
+                </a>
+
+
+                <!-- Links -->
+                <nav class="site-footer__nav">
+
+                    <a
+                        href="https://www.instagram.com/onor.design/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="site-footer__link"
+                    >
+                        Instagram
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/anna-meißner-82769a2ba"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="site-footer__link"
+                    >
+                        LinkedIn
+                    </a>
+
+                    <a
+                        href="mailto:werbeagentur.onor@gmail.com"
+                        class="site-footer__link"
+                    >
+                        Email
+                    </a>
+
+                    <a
+                        href="imprint.html"
+                        class="site-footer__link"
+                    >
+                        Imprint
+                    </a>
+
+                </nav>
+
+
+                <!-- Copyright -->
+                <p class="site-footer__copy">
+                ©2024 ONOR. All Rights Reserved.
+                </p>
+
+            </div>
+
+        </footer>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

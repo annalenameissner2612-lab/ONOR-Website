@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ONOR</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zmq2nmy.css"/>
+    <link rel="stylesheet" href="css/onor.css"/>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js" defer></script>
+    <link rel="preload" as="image" href="assets/img/bg.png"/>
+  </head>
+
+    <body>
+
+        <!-- =========================================================
+            HEADER
+        ========================================================= -->
+
+        <header class="site-header">
+            <!-- Logo -->
+            <a href="index.html" class="logo-link" aria-label="Zur Startseite">
+                <img src="assets/img/elements/onor_symbol.svg" alt="ONOR Symbol" class="logo"/>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="main-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+
+                    <li><a href="index.html" class="nav-link is-active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skill.html" class="nav-link">Skill</a></li>
+                    <li><a href="work.html" class="nav-link">Work</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+
+                </ul>
+                
+                <!-- Mobile Toggle -->
+                <button
+                class="nav-toggle"
+                type="button"
+                aria-label="Open Menu"
+                >
+                <span></span>
+                <span></span>
+                <span></span>
+                </button>
+
+            </nav>
+
+            <!-- CTA -->
+            <a href="contact.html" class="btn btn-primary header-cta">Contact Me</a>
+        </header>
+
+
+        <!-- =========================================================
+            HERO SECTION
+        ========================================================= -->
+
+        <section id="home" class="hero-section">
+
+            <!-- Background -->
+            <img src="assets/img/bg.png" alt="" aria-hidden="true" class="hero-bg" loading="eager"/>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <!-- Hero Logo -->
+                <img src="assets/img/elements/logo.svg" alt="ONOR" class="hero-logo"/>
+
+                <!-- Copy -->
+                <p class="hero-copy">
+                    Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna
+                    aliquam erat
+                </p>
+
+                <!-- Buttons -->
+                <div class="hero-actions">
+                    <a href="#selected-works" class="btn btn-primary">Start The Brief</a>
+                    <a href="work.html" class="btn btn-secondary">View Work</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================================
+            SELECTED WORKS
+        ========================================================= -->
+
+        <section id="selected-works" class="selected-works section">
+
+            <div class="container">
+
+                <!-- Section Head -->
+                <div class="section-head section-head--works">
+
+                    <div class="section-head__content">
+
+                        <p class="section-kicker">Visual Design</p>
+
+                        <h2 class="section-title">
+                        Selected<br>
+                        Works
+                        </h2>
+
+                    </div>
+
+                    <!-- Link -->
+                    <a href="work.html" class="section-link">
+
+                        <span>View All Works</span>
+                        <i data-lucide="arrow-up-right" class="btn-icon"></i>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Works Grid -->
+                <div class="works-grid">
+
+                <!-- Card 01 -->
+                <article class="work-card work-card--large">
+
+                    <a href="opera.html" class="work-card__link">
+
+                    <!-- Image -->
+                    <img
+                        src="assets/img/start01.png"
+                        alt="Semperoper Konzept Art"
+                        class="work-card__image"
+                    />
+
+                    <!-- Overlay -->
+                    <div class="work-card__overlay">
+
+                        <span class="work-card__number">01</span>
+
+                        <div class="work-card__meta">
+                            <h3 class="work-card__title">Semperopera</h3>
+                            <p class="work-card__info">Integrated Print Campaign - 2026</p>
+                        </div>
+
+                    </div>
+
+                    </a>
+
+                </article>
+
+
+                <!-- Card 02 -->
+                <article class="work-card work-card--small">
+
+                    <a href="bear.html" class="work-card__link">
+
+                    <!-- Image -->
+                    <img
+                        src="assets/img/start02.png"
+                        alt="Bearboana Branding"
+                        class="work-card__image"
+                    />
+
+                    <!-- Overlay -->
+                    <div class="work-card__overlay">
+
+                        <span class="work-card__number">02</span>
+
+                        <div class="work-card__meta">
+                            <h3 class="work-card__title">Bearboana</h3>
+                            <p class="work-card__info">Brand Identity & Collateral - 2025</p>
+                        </div>
+
+                    </div>
+
+                    </a>
+
+                </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================================
+            EXPERTISE
+        ========================================================= -->
+
+        <section id="expertise" class="expertise section">
+
+            <div class="container">
+
+                <div class="expertise-grid">
+
+                <!-- Left -->
+                <div class="expertise-content">
+
+                    <h2 class="expertise-title">
+                    My<br>
+                    Expertise
+                    </h2>
+
+                    <p class="expertise-copy">
+                    Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod
+                    </p>
+
+                    <div class="expertise-divider"></div>
+
+                    <div class="expertise-list">
+
+                        <!-- Item -->
+                        <div class="expertise-item">
+
+                            <img
+                            src="assets/img/elements/color.svg"
+                            alt=""
+                            aria-hidden="true"
+                            class="expertise-item__icon"
+                            />
+
+                            <p class="expertise-item__text">
+                            Branding & Visual Design
+                            </p>
+
+                        </div>
+
+                        <!-- Item -->
+                        <div class="expertise-item">
+
+                            <img
+                            src="assets/img/elements/bug.svg"
+                            alt=""
+                            aria-hidden="true"
+                            class="expertise-item__icon"
+                            />
+
+                            <p class="expertise-item__text">
+                            UI & Front-End Development
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Right -->
+                <div class="expertise-cards">
+
+                    <!-- Card -->
+                    <article class="expertise-card">
+
+                        <img
+                            src="assets/img/elements/branding.svg"
+                            alt=""
+                            aria-hidden="true"
+                            class="expertise-card__icon"
+                        />
+
+                        <h3 class="expertise-card__title">
+                            Branding<br>
+                            System
+                        </h3>
+
+                        <p class="expertise-card__copy">
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit,
+                            sed diam nonummy nibh
+                            euismod tincidunt ut laoreet
+                        </p>
+
+                    </article>
+
+
+                    <!-- Card -->
+                    <article class="expertise-card">
+
+                        <img
+                            src="assets/img/elements/visual.svg"
+                            alt=""
+                            aria-hidden="true"
+                            class="expertise-card__icon expertise-card__icon--small"
+                        />
+
+                        <h3 class="expertise-card__title">
+                            Visual Identity
+                        </h3>
+
+                        <p class="expertise-card__copy">
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit,
+                            sed diam nonummy nibh
+                            euismod tincidunt ut laoreet
+                        </p>
+
+                    </article>
+
+
+                    <!-- Card Large -->
+                    <article class="expertise-card expertise-card--large">
+
+                        <img
+                            src="assets/img/elements/web.svg"
+                            alt=""
+                            aria-hidden="true"
+                            class="expertise-card__icon"
+                        />
+
+                        <h3 class="expertise-card__title">
+                            Web Design & Development
+                        </h3>
+
+                        <p class="expertise-card__copy">
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit,
+                            sed diam nonummy nibh
+                            euismod tincidunt ut
+                        </p>
+
+                    </article>
+
+                </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================================================
+            CTA SECTION
+        ========================================================= -->
+
+        <section id="contact-cta" class="contact-cta-section">
+
+            <div class="container">
+
+                <div class="contact-cta">
+
+                    <h2 class="contact-cta__title">
+                        Ready To<br>
+                        Be Seen?
+                    </h2>
+
+                    <a
+                        href="contact.html"
+                        class="contact-cta__button"
+                    >
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+         <!-- ======================================================
+            COOKIE BANNER
+        ====================================================== -->
+
+        <div class="cookie-banner">
+
+            <!-- Close -->
+            <button class="cookie-banner__close">
+
+                <i
+                data-lucide="x"
+                class="cookie-banner__close-icon"
+                ></i>
+
+            </button>
+
+
+            <!-- Content -->
+            <div class="cookie-banner__content">
+
+
+                <!-- Row -->
+                <div class="cookie-banner__row">
+
+
+                    <!-- Left -->
+                    <div class="cookie-banner__title">
+
+                        <span class="cookie-banner__title-fill">
+                            Digital
+                        </span>
+
+                        <span class="cookie-banner__title-outline">
+                            Footprint
+                        </span>
+
+                    </div>
+
+
+                    <!-- Right -->
+                    <div class="cookie-banner__right">
+
+
+                        <!-- Text -->
+                        <p class="cookie-banner__text">
+
+                            <span class="cookie-banner__preview">
+                                We use cookies to improve functionality,
+                                analyze traffic and enhance your browsing
+                                experience.
+                            </span>
+
+                            <span class="cookie-banner__more">
+                                You can accept all cookies, customize your
+                                preferences or decline optional tracking
+                                technologies.
+                            </span>
+
+                            <button class="cookie-banner__readmore">
+                                Read more
+                            </button>
+
+                        </p>
+
+
+
+                        <!-- =========================================
+                            DEFAULT ACTIONS
+                        ========================================== -->
+
+                        <div class="cookie-banner__actions">
+
+                            <button class="btn btn-primary">
+                                Accept All
+                            </button>
+
+                            <button class="btn btn-secondary cookie-banner__preferences-toggle">
+                                Preferences
+                            </button>
+
+                            <button class="cookie-banner__decline">
+                                Decline
+                            </button>
+
+                        </div>
+
+
+
+                        <!-- =========================================
+                            EXPANDED PREFERENCES
+                        ========================================== -->
+
+                        <div class="cookie-banner__preferences">
+
+
+                            <!-- Save -->
+                            <button class="btn btn-secondary cookie-banner__save">
+
+                                Save Preferences
+
+                            </button>
+
+
+
+                            <!-- Options -->
+                            <div class="cookie-banner__options">
+
+
+                                <!-- Necessary -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    checked
+                                    disabled
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Necessary
+                                    </span>
+
+                                </label>
+
+
+
+                                <!-- Analytics -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Analytics
+                                    </span>
+
+                                </label>
+
+
+
+                                <!-- Marketing -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Marketing
+                                    </span>
+
+                                </label>
+
+
+
+                                <!-- Preferences -->
+                                <label class="cookie-option">
+
+                                    <input
+                                    type="checkbox"
+                                    >
+
+                                    <span class="cookie-option__box">
+
+                                        <i
+                                        data-lucide="x"
+                                        class="cookie-option__icon"
+                                        ></i>
+
+                                    </span>
+
+                                    <span class="cookie-option__label">
+                                        Preferences
+                                    </span>
+
+                                </label>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- =========================================================
+            FOOTER
+        ========================================================= -->
+
+        <footer class="site-footer">
+
+            <div class="container site-footer__inner">
+
+                <!-- Logo -->
+                <a href="index.html" class="site-footer__logo-link">
+
+                    <img
+                        src="assets/img/elements/onor_symbol.svg"
+                        alt="ONOR Symbol"
+                        class="site-footer__logo"
+                    />
+
+                </a>
+
+
+                <!-- Links -->
+                <nav class="site-footer__nav">
+
+                    <a
+                        href="https://www.instagram.com/onor.design/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="site-footer__link"
+                    >
+                        Instagram
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/anna-meißner-82769a2ba"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="site-footer__link"
+                    >
+                        LinkedIn
+                    </a>
+
+                    <a
+                        href="mailto:werbeagentur.onor@gmail.com"
+                        class="site-footer__link"
+                    >
+                        Email
+                    </a>
+
+                    <a
+                        href="imprint.html"
+                        class="site-footer__link"
+                    >
+                        Imprint
+                    </a>
+
+                </nav>
+
+
+                <!-- Copyright -->
+                <p class="site-footer__copy">
+                ©2024 ONOR. All Rights Reserved.
+                </p>
+
+            </div>
+
+        </footer>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
