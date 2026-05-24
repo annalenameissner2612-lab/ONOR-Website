@@ -445,6 +445,20 @@ document.addEventListener("DOMContentLoaded", () =>
   const cookieBanner =
   document.querySelector(".cookie-banner");
 
+  /* -----------------------------
+    CHECK CONSENT /
+    *nach Accept alle Banner verschwinden 
+  ----------------------------- */
+
+  if(
+    localStorage.getItem(
+      "onor-cookie-consent"
+    ) === "accepted"
+  )
+  {
+    cookieBanner.style.display = "none";
+  }
+
 
   /* -----------------------------
     CLOSE
@@ -521,6 +535,28 @@ document.addEventListener("DOMContentLoaded", () =>
       {
           cookieBanner.classList.remove("expanded");
       });
+  }
+
+
+  /* -----------------------------
+    ACCEPT
+  ----------------------------- */
+
+  const acceptButton =
+  document.querySelector(
+    ".cookie-banner .btn-primary"
+  );
+
+  if(acceptButton)
+  {
+    acceptButton.addEventListener("click", () =>
+    {
+      localStorage.setItem(
+        "onor-cookie-consent",
+        "accepted"
+      );
+      cookieBanner.style.display = "none";
+    })
   }
 
 
