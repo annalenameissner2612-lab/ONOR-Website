@@ -961,7 +961,11 @@ a
 .about-section__grid
 {
   display: grid;
-  grid-template-columns: 887px 400px;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    400px;
+
   gap: 34px;
 
   align-items: start;
